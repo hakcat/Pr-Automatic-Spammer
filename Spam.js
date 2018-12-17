@@ -17,4 +17,9 @@ var timer = setInterval(function(){
 	if( i % notifyInterval == 0)
 	console.log(i + ' MESSAGES SENT');
 } , interval * 1000 ) ;
-//BTW , this is how I sent 10,000 Happy birthday wishes to my friend.
+
+
+// Main Core: document.getElementsByClassName('composer_rich_textarea')[0].innerHTML = "message"; $('.im_submit').trigger('mousedown');
+//Rough Work: Don't Read on. I presume you won't understand.
+
+//var cars = ["Saab", "Volvo", "BMW"];
