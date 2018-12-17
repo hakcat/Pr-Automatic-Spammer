@@ -21,5 +21,21 @@ var timer = setInterval(function(){
 
 // Main Core: document.getElementsByClassName('composer_rich_textarea')[0].innerHTML = "message"; $('.im_submit').trigger('mousedown');
 //Rough Work: Don't Read on. I presume you won't understand.
+// I don't know why these simple codes given below don't work. If you've got any idea, please help.
 
-//var cars = ["Saab", "Volvo", "BMW"];
+//var i;
+//for (i=0; i<5; i++){ 
+//document.getElementsByClassName('composer_rich_textarea')[0].innerHTML = "message";
+//$('.im_submit').trigger('mousedown');}
+
+//var i=0;
+//while (i<5) {
+//  document.getElementsByClassName('composer_rich_textarea')[0].innerHTML = "message"; 
+//	$('.im_submit').trigger('mousedown');
+//	i=i+1;
+//}
+
+
+//setInterval(function(){   document.getElementsByClassName('composer_rich_textarea')[0].innerHTML = "message"; 
+//	$('.im_submit').trigger('mousedown'); }, 3);
+
